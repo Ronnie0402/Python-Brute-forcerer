@@ -1,12 +1,12 @@
 
 import random
 import pyautogui
-character="0123456789abcdefghijklmnopqrstuvwxyz"
+character="0123456789abcdefghijklmdnopqrstuvwxyz"
 character_list=list(character)
 
 password=pyautogui.password( "Hello Raunak , please enter your password  ")
 
-guess_password=''
+guess_password=' '
 while(guess_password!=password):
     guess_password=random.choices(character_list,k=len(password))
     print(">"+str(guess_password)+"<<")
