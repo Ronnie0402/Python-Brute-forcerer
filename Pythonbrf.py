@@ -4,7 +4,7 @@ import pyautogui
 character="0123456789abcdefghijklmdnopqrstuvwxyz"
 character_list=list(character)
 
-password=pyautogui.password( "Hello Raunak , please enter your password  ")
+password=pyautogui.password( "Hello Raunak, please enter your password  ")
 
 guess_password=' '
 while(guess_password!=password):
